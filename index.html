@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate On Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Wanderlust</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container text-center">
+            <div class="hero-content" data-aos="zoom-in">
+                <h1 class="display-4 fw-bold mb-4">Discover Your Next Adventure</h1>
+                <p class="lead mb-4">Explore the world's most breathtaking destinations with expert guides</p>
+                <button class="btn btn-lg btn-primary">Start Exploring</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold" data-aos="fade-up">Why Choose Us</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card">
+                        <i class="fas fa-compass fa-3x text-primary mb-3"></i>
+                        <h3>Expert Guides</h3>
+                        <p>Our certified guides have extensive local knowledge and training.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <i class="fas fa-globe fa-3x text-primary mb-3"></i>
+                        <h3>Global Destinations</h3>
+                        <p>Explore over 50 unique destinations worldwide.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card">
+                        <i class="fas fa-leaf fa-3x text-primary mb-3"></i>
+                        <h3>Sustainable Travel</h3>
+                        <p>We prioritize eco-friendly and sustainable travel practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold" data-aos="fade-up">What Our Travelers Say</h2>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <p>"Wanderlust Adventures made my dream trip a reality. The guides were knowledgeable and the itinerary was perfect!"</p>
+                        <span>- Jane Doe</span>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <p>"I've never felt more connected to nature. This was the best travel experience of my life!"</p>
+                        <span>- John Smith</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="contact" class="newsletter-section py-5">
+        <div class="container text-center">
+            <h2 class="mb-4" data-aos="fade-up">Join Our Adventure Community</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <form class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy;  Wanderlust. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="social-icon mx-2"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon mx-2"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

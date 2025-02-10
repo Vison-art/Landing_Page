@@ -1,0 +1,106 @@
+
+:root {
+    --primary-color: #2ec4b6;
+    --secondary-color: #1a1a1a;
+    --accent-color: #ff9f1c;
+    --text-color: #ffffff;
+    --background-gradient: linear-gradient(135deg, #1a1a1a, #2c3e50);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--background-gradient);
+    color: var(--text-color);
+    min-height: 100vh;
+}
+
+.navbar {
+    background: rgba(26, 26, 26, 0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--text-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--background-gradient);
+}
+
+.hero-content {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+.newsletter-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-color);
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--accent-color);
+}
+
+footer {
+    background: rgba(26, 26, 26, 0.9);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.3);
+}
